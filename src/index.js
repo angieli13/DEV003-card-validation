@@ -17,3 +17,5 @@ document.getElementById("boton").addEventListener("click", function(){
 
 //EventTargetinterfaz configura una función que se llamará cada vez que el evento especificado se envíe al destino.
  //validator.isValid(textin)
+
+ 
