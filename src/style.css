@@ -1,0 +1,77 @@
+body {
+    background-image: url('./fotos/fotoj.png');
+    background-color: rgb(188, 222, 239);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 250px ;
+    margin-top: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-datos {
+   background-color: rgb(147, 164, 241);
+   padding: 3px;
+   margin: auto;
+   width: 800px;
+   margin-top: 50px;
+}
+
+h1{
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    text-align: center;
+}
+
+input[type="text"]{
+    font-size: 10px;
+    width: 50%;
+    padding: 9px;
+    border: 5px pink;
+    line-height: 0,3mm;
+    margin-top: 25px;
+    
+}
+
+label[for="iNombre"]{
+    font-style: italic;
+    font-size: x-large;
+}
+
+label[for= "iApellido"]{
+    font-style: italic;
+    font-size: x-large;
+}
+
+label[for= "iCorreo"]{
+    font-style: italic;
+    font-size: x-large;
+}
+
+label[for= "inputNumero"]{
+    font-style: italic;
+    font-size: x-large;
+}
+
+button{
+    background-color: pink;
+    margin-top: 25px;
+    font-style: italic;
+    font-size: large;
+    border: 10px goldenrod;
+}
+.Thanks{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: hsl(278deg, 68%, 11%);
+    margin-bottom: 24px;
+  }

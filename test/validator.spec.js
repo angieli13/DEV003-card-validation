@@ -22,6 +22,10 @@ describe('validator', () => {
     it('debería retornar false para "1234567890"', () => {
       expect(validator.isValid('1234567890')).toBe(false);
     });
+
+    it('deberia retornar true para "4137894711755974"', () => {
+      expect(validator.isValid('4137894711755974')).toBe(true);
+    })
   });
 
   describe('validator.maskify', () => {

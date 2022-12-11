@@ -3,31 +3,43 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Tarjeta de crédito válida</title>
-
-
+	<link rel="stylesheet" href= "./style.css"/>
+    <title>Tarjeta de crédito válida</title>
 </head>
 
 <body>
+	<center><img src="./fotos/Logo.png" height="250"></center>
+	<section class="form-datos">
 
-
-	<div class="grupo">
-		<label for="iNombre">Nombres</label>
-		<input type="text" id="inputNombre" maxlength="16" autocomplete="off">
+	<header> 
+		<h1>VALIDACIÓN DE TARJETA</h1>
+	</div>
+	
+	</header>  
+	<div id="grupono">
+		<div class="grupo">
+			<center><label for="iNombre">Nombres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text" id="inputNombre" maxlength="16" autocomplete="off"></center>
+		</div>
+		<div class="grupo">
+			<center><label for="iApellido">Apellido&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text" id="inputApellido" maxlength="16" autocomplete="off"></center>
+		</div>
+		<div class="grupo">
+			<center><label for="iCorreo">Correo Electrónico</label>
+			<input type="text" id="inputCorreo Electrónico" maxlength="20" autocomplete="off"></center>
+		</div>
 	</div>
 	<div class="grupo">
-		<label for="iApellido">Apellidos</label>
-		<input type="text" id="inputApellido" maxlength="16" autocomplete="off">
+		<center><label for="inputNumero">Número Tarjeta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+		<input id="texton" name="texton" type="text" pattern="\d{16,16}" maxlength="16" /></center>
 	</div>
-	<div class="grupo">
-		<label for="inputNumero">Número Tarjeta</label>
-		<input id="texton" name="texton" type="text" pattern="\d{16,16}" maxlength="16" />
+	<center><button id="boton">A un click para brillar</button></center>
+    </section>
 
-
-	</div>
-	<button id="boton">Boton</button>
-
-
+	<section class="Thanks">
+		<h1 class="gracias" id="idgracias" style="display: none;">Gracias por tu compra</h1>
+	</section>
 
 	<script src="./index.js" type="module"></script>
 </body>
