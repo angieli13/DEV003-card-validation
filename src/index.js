@@ -7,7 +7,7 @@ import validator from './validator.js';
 document.getElementById("boton").addEventListener("click", function(){
   const numerosTarjeta = document.getElementById('texton').value; 
   console.log(numerosTarjeta);
-  if (validator.isValid(numerosTarjeta)==true){
+  if (validator.isValid(numerosTarjeta)===true){
     alert ("tarjeta valida");
     document.getElementById('texton').value = validator.maskify(numerosTarjeta);
     let divgracias = document.getElementById('grupono');
@@ -17,7 +17,7 @@ document.getElementById("boton").addEventListener("click", function(){
   } else {
     alert ("tarjeta invalida")
   }
- });
+  });
 
 
 
