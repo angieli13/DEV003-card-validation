@@ -8,7 +8,7 @@ En canva diseñe el estilo que quería para mi prototipo.
 ![Boceto](https://github.com/angieli13/DEV003-card-validation/blob/main/src/fotos/mensaje.png)
 
 
-### Proceso para definir mi producto
+## Proceso para definir mi producto
 Realice un diagrama de flujo para identificar el problema, describiendo los pasos para su solución.
 
 ![Diagrama de flujo](https://github.com/angieli13/DEV003-card-validation/blob/main/src/fotos/diagrama.png)
