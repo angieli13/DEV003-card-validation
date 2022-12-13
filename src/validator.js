@@ -7,14 +7,16 @@ const validator = {
       
       const array = []; // Se crea un array vacío en donde se acomodarán los números de la tarjeta.
 
-      for(let i = cardNumber.length -1; i >= 0; i--){ // Se itera sobre la variable cardNumber de atrás hacia adelante.
-
-        array.push(parseInt(cardNumber[i]));//se agregan los numeros al array
+      for(let i = cardNumber.length -1; i >= 0; i--){ // Se itera sobre la variable cardNumber de atrás hacia adelante.Bucle for decremento
+        
+        array.push(parseInt(cardNumber[i]));/*Por medio del método for y el método push crearemos una nueva variable
+        denominada var reverseNumber donde obtenemos los números invertidos. se agregan los numeros al array*/
         
       }
       
       let sumanumero = 0;
 
+      
       for(let p = 0; p <= array.length-1; p++){ // Se itera en los números de las posiciones pares.
         
         if ((p%2) === 0) { //se divide en 2 para identificar pares
@@ -31,7 +33,7 @@ const validator = {
       }
 
       //tarjeta valida 
-      if(Number(sumanumero.toString().charAt(1)) == 0){
+      if(Number(sumanumero.toString().charAt(1)) === 0){
         //alert("tarjeta valida");
         return true;
       } else {
