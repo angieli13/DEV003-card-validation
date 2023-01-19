@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href= "./style.css"/>
+    <title>Tarjeta de crédito válida</title>
+</head>
+
+<body>
+	<center><img src="./fotos/Logo.png" height="250"></center>
+	<section class="form-datos">
+
+	<header> 
+		<h1>VALIDACIÓN DE TARJETA</h1>
+	
+	
+	</header>  
+	<div id="grupono">
+		<div class="grupo">
+			<center><label for="iNombre">Nombres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text" id="inputNombre" maxlength="16" autocomplete="off"></center>
+		</div>
+		<div class="grupo">
+			<center><label for="iApellido">Apellido&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text" id="inputApellido" maxlength="16" autocomplete="off"></center>
+		</div>
+		<div class="grupo">
+			<center><label for="iCorreo">Correo Electrónico</label>
+			<input type="text" id="inputCorreo Electrónico" maxlength="20" autocomplete="off"></center>
+		</div>
+	</div>
+	<div class="grupo">
+		<center><label for="inputNumero">Número Tarjeta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+		<input id="texton" name="texton" type="text" pattern="\d{16,16}" maxlength="16" /></center>
+	</div>
+	<center><button id="boton">A un click para brillar</button></center>
+    </section>
+
+	<section class="Thanks">
+		<h1 class="gracias" id="idgracias" style="display: none;">Gracias por tu compra</h1>
+	</section>
+
+	<script src="./index.js" type="module"></script>
+</body>
+
+</html>
